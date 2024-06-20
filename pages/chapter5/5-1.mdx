@@ -247,7 +247,7 @@ import { Tabs } from 'nextra/components';
 
 ### 클로저 발생 시의 콜스택 흐름
 
-<Tabs items={['1. 원본 코드', '2. 결과']}>
+<Tabs items={['1. 외부 함수의 변수를 참조하는 내부 함수(1)', '2. 외부 함수의 변수를 참조하는 내부 함수(2)', '3. 외부 함수의 변수를 참조하는 내부 함수(3)']}>
   <Tabs.Tab>
     ```js showLineNumbers copy filename="외부 함수의 변수를 참조하는 내부 함수(1)"
     var outer = function() {
